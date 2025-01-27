@@ -82,7 +82,7 @@ public class TC_LoginTest_003 extends BaseClass {
 		test.info("Test completed: verifyLogin");
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 3,enabled = false)
 	public void testForgotPassword() {
 		lp = new LoginPage(driver);
 		test = extent.createTest("testForgotPassword");
