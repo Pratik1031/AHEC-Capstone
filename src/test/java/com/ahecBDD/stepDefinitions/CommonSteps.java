@@ -51,9 +51,9 @@ public class CommonSteps {
 	public void verify_the_status_of_login(String expectedstatus) {
 		WebElement dashboard = driver.findElement(By.tagName("h2"));
 		if (expectedstatus.equals("success"))
-			assertTrue(dashboard.getText().equals("DASHBOARD"), "Valid user login failed");
+			assertTrue(dashboard.getText().equals("DASHBOARD"), "valid user login failed");
 		else
-			assertFalse(dashboard.getText().equals("DASHBOARD"), "Invalid user login");
+			assertFalse(dashboard.getText().equals("DASHBOARD"), "Invalid user login success");
 	}
 
 	@And("user enters username {string} email {string} and password {string}")
@@ -83,6 +83,7 @@ public class CommonSteps {
 	@When("user hover over PROGRAMS nav-Link")
 	public void user_hover_over_programs_nav_link() {
 		Loading_Program_Section();
+
 	}
 
 	@And("user clicks Tobacco link")
@@ -98,6 +99,7 @@ public class CommonSteps {
 		// Title verification
 		assertTrue(driver.getTitle().contains("Tobacco"), "Not navigating to Tobacco page");
 		// Content verification
+
 		assertTrue(content.contentEquals("TOBACCO"), "Not navigating to Tobacco page");
 	}
 
@@ -123,7 +125,10 @@ public class CommonSteps {
 	@Then("validate AHEC Scholars link is navigating to AHEC Scholars page")
 	public void validate_ahec_scholars_link_is_navigating_to_ahec_scholars_page() {
 		String content = driver.findElement(By.className("entry-title")).getText();
+		// Title verification
 		assertTrue(driver.getTitle().contains("AHEC Scholars"), "Not navigating to AHEC Scholars page");
+		// Content verification
+
 		assertTrue(content.contentEquals("AHEC SCHOLARS"), "Not navigating to AHEC Scholars page");
 	}
 
@@ -142,7 +147,10 @@ public class CommonSteps {
 	@Then("validate Healthy Aging link is navigating to Healthy Aging page")
 	public void validate_healthy_aging_link_is_navigating_to_healthy_aging_page() {
 		String content = driver.findElement(By.className("entry-title")).getText();
+		// Title verification
 		assertTrue(driver.getTitle().contains("Healthy Aging"), "Not navigating to Healthy Aging page");
+		// Content verification
+
 		assertTrue(content.contentEquals("HEALTHY AGING"), "Not navigating to Healthy aging page");
 	}
 
@@ -161,7 +169,10 @@ public class CommonSteps {
 	@Then("validate Covering Florida link is navigating to Covering Florida page")
 	public void validate_covering_florida_link_is_navigating_to_covering_florida_page() {
 		String content = driver.findElement(By.tagName("h2")).getText();
+		// Title verification
 		assertTrue(driver.getTitle().contains("Navigators"), "Not navigating to Navigators  page");
+		// Content verification
+
 		assertTrue(content.contentEquals("EDUCATING TOWARDS A HEALTHIER COMMUNITY"), "Not navigating to Tobacco page");
 
 	}
@@ -175,7 +186,7 @@ public class CommonSteps {
 
 	@When("user navigates to account details")
 	public void user_navigates_to_account_details() {
-		WebElement accountDetails = driver.findElement(By.xpath("//*[@id=\"post-381\"]/div/div/nav/ul/li[6]/a"));
+		WebElement accountDetails = driver.findElement(By.linkText("Account details"));
 		accountDetails.click();
 	}
 
@@ -218,6 +229,7 @@ public class CommonSteps {
 	@Then("the Login page is displayed")
 	public void the_login_page_is_displayed() {
 		WebElement LoginTitle = driver.findElement(By.tagName("h2"));
+
 		assertEquals(LoginTitle.getText(), "LOGIN", "Log out failed");
 	}
 
@@ -236,6 +248,7 @@ public class CommonSteps {
 	@Then("Account login successful")
 	public void account_login_successful() {
 		WebElement Dashboard = driver.findElement(By.tagName("h2"));
+
 		assertEquals(Dashboard.getText(), "DASHBOARD", "Log in failed");
 	}
 

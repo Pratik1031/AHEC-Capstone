@@ -1,396 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="25" passed="21" failed="4" skipped="0">
+<testng-results ignored="0" total="24" passed="21" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-25T14:48:47 IST" name="West Florida AHEC Tests" finished-at="2025-01-25T14:51:47 IST" duration-ms="180511">
+  <suite started-at="2025-01-27T16:36:05 IST" name="West Florida AHEC Tests" finished-at="2025-01-27T16:37:08 IST" duration-ms="63407">
     <groups>
     </groups>
-    <test started-at="2025-01-25T14:48:47 IST" name="HomePageTests" finished-at="2025-01-25T14:50:07 IST" duration-ms="80065">
-      <class name="com.ahec.testCases.TC_HomePage_001">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:48:47 IST" name="setUp" finished-at="2025-01-25T14:49:21 IST" duration-ms="34736" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:21 IST" name="setupTest" finished-at="2025-01-25T14:49:21 IST" duration-ms="9" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyURL()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyURL()[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:21 IST" name="testVerifyURL" finished-at="2025-01-25T14:49:21 IST" duration-ms="79" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyURL -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:21 IST" name="logTestStatus" finished-at="2025-01-25T14:49:21 IST" duration-ms="30" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifyURL status=SUCCESS method=TC_HomePage_001.testVerifyURL()[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:22 IST" name="setupTest" finished-at="2025-01-25T14:49:22 IST" duration-ms="16" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyHomePageTitle()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyHomePageTitle()[pri:1, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:22 IST" name="testVerifyHomePageTitle" finished-at="2025-01-25T14:49:22 IST" duration-ms="31" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyHomePageTitle -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:22 IST" name="logTestStatus" finished-at="2025-01-25T14:49:22 IST" duration-ms="14" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifyHomePageTitle status=SUCCESS method=TC_HomePage_001.testVerifyHomePageTitle()[pri:1, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:22 IST" name="setupTest" finished-at="2025-01-25T14:49:22 IST" duration-ms="22" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testHomePageLogoIsDisplayed()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testHomePageLogoIsDisplayed()[pri:2, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:22 IST" name="testHomePageLogoIsDisplayed" finished-at="2025-01-25T14:49:22 IST" duration-ms="451" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHomePageLogoIsDisplayed -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:22 IST" name="logTestStatus" finished-at="2025-01-25T14:49:22 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testHomePageLogoIsDisplayed status=SUCCESS method=TC_HomePage_001.testHomePageLogoIsDisplayed()[pri:2, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:22 IST" name="setupTest" finished-at="2025-01-25T14:49:22 IST" duration-ms="15" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyNavigationMenu()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyNavigationMenu()[pri:3, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:22 IST" name="testVerifyNavigationMenu" finished-at="2025-01-25T14:49:22 IST" duration-ms="215" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyNavigationMenu -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:22 IST" name="logTestStatus" finished-at="2025-01-25T14:49:22 IST" duration-ms="16" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifyNavigationMenu status=SUCCESS method=TC_HomePage_001.testVerifyNavigationMenu()[pri:3, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:22 IST" name="setupTest" finished-at="2025-01-25T14:49:22 IST" duration-ms="20" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyHealthPrograms()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyHealthPrograms()[pri:4, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:22 IST" name="testVerifyHealthPrograms" finished-at="2025-01-25T14:49:25 IST" duration-ms="2971" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyHealthPrograms -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:26 IST" name="logTestStatus" finished-at="2025-01-25T14:49:26 IST" duration-ms="70" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifyHealthPrograms status=SUCCESS method=TC_HomePage_001.testVerifyHealthPrograms()[pri:4, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:26 IST" name="setupTest" finished-at="2025-01-25T14:49:26 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyServicesDisplayed()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyServicesDisplayed()[pri:5, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:26 IST" name="testVerifyServicesDisplayed" finished-at="2025-01-25T14:49:26 IST" duration-ms="430" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyServicesDisplayed -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:26 IST" name="logTestStatus" finished-at="2025-01-25T14:49:26 IST" duration-ms="59" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifyServicesDisplayed status=SUCCESS method=TC_HomePage_001.testVerifyServicesDisplayed()[pri:5, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:26 IST" name="setupTest" finished-at="2025-01-25T14:49:26 IST" duration-ms="67" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyCPRDisplayed()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyCPRDisplayed()[pri:6, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:26 IST" name="testVerifyCPRDisplayed" finished-at="2025-01-25T14:49:27 IST" duration-ms="621" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyCPRDisplayed -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:27 IST" name="logTestStatus" finished-at="2025-01-25T14:49:27 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifyCPRDisplayed status=SUCCESS method=TC_HomePage_001.testVerifyCPRDisplayed()[pri:6, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:27 IST" name="setupTest" finished-at="2025-01-25T14:49:27 IST" duration-ms="59" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyContactUsDisplayed()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyContactUsDisplayed()[pri:7, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:27 IST" name="testVerifyContactUsDisplayed" finished-at="2025-01-25T14:49:27 IST" duration-ms="338" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyContactUsDisplayed -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:27 IST" name="logTestStatus" finished-at="2025-01-25T14:49:27 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifyContactUsDisplayed status=SUCCESS method=TC_HomePage_001.testVerifyContactUsDisplayed()[pri:7, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:27 IST" name="setupTest" finished-at="2025-01-25T14:49:27 IST" duration-ms="17" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyNewsDisplayed()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyNewsDisplayed()[pri:8, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:27 IST" name="testVerifyNewsDisplayed" finished-at="2025-01-25T14:49:28 IST" duration-ms="129" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyNewsDisplayed -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:28 IST" name="logTestStatus" finished-at="2025-01-25T14:49:28 IST" duration-ms="23" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifyNewsDisplayed status=SUCCESS method=TC_HomePage_001.testVerifyNewsDisplayed()[pri:8, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:28 IST" name="setupTest" finished-at="2025-01-25T14:49:28 IST" duration-ms="4" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyMyAccountDisplayed()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyMyAccountDisplayed()[pri:9, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:28 IST" name="testVerifyMyAccountDisplayed" finished-at="2025-01-25T14:49:28 IST" duration-ms="116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyMyAccountDisplayed -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:28 IST" name="logTestStatus" finished-at="2025-01-25T14:49:28 IST" duration-ms="6" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifyMyAccountDisplayed status=SUCCESS method=TC_HomePage_001.testVerifyMyAccountDisplayed()[pri:9, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:28 IST" name="setupTest" finished-at="2025-01-25T14:49:28 IST" duration-ms="7" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyContactUsFunctionality()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyContactUsFunctionality()[pri:10, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:28 IST" name="testVerifyContactUsFunctionality" finished-at="2025-01-25T14:49:39 IST" duration-ms="10872" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifyContactUsFunctionality -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:39 IST" name="logTestStatus" finished-at="2025-01-25T14:49:39 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifyContactUsFunctionality status=SUCCESS method=TC_HomePage_001.testVerifyContactUsFunctionality()[pri:10, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:39 IST" name="setupTest" finished-at="2025-01-25T14:49:39 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testSearchBoxWithValidInputs()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testSearchBoxWithValidInputs()[pri:11, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:39 IST" name="testSearchBoxWithValidInputs" finished-at="2025-01-25T14:49:50 IST" duration-ms="11124" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchBoxWithValidInputs -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:50 IST" name="logTestStatus" finished-at="2025-01-25T14:49:50 IST" duration-ms="10" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testSearchBoxWithValidInputs status=SUCCESS method=TC_HomePage_001.testSearchBoxWithValidInputs()[pri:11, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:50 IST" name="setupTest" finished-at="2025-01-25T14:49:50 IST" duration-ms="8" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testSearchBoxWithInvalidInputs()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testSearchBoxWithInvalidInputs()[pri:12, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:50 IST" name="testSearchBoxWithInvalidInputs" finished-at="2025-01-25T14:49:54 IST" duration-ms="4562" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchBoxWithInvalidInputs -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:54 IST" name="logTestStatus" finished-at="2025-01-25T14:49:54 IST" duration-ms="28" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testSearchBoxWithInvalidInputs status=SUCCESS method=TC_HomePage_001.testSearchBoxWithInvalidInputs()[pri:12, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:54 IST" name="setupTest" finished-at="2025-01-25T14:49:54 IST" duration-ms="15" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifySearchBar()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testVerifySearchBar()[pri:13, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:54 IST" name="testVerifySearchBar" finished-at="2025-01-25T14:49:59 IST" duration-ms="4638" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testVerifySearchBar -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:59 IST" name="logTestStatus" finished-at="2025-01-25T14:49:59 IST" duration-ms="5" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testVerifySearchBar status=SUCCESS method=TC_HomePage_001.testVerifySearchBar()[pri:13, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ahec.testCases.TC_HomePage_001@3eb25e1a]" started-at="2025-01-25T14:49:59 IST" name="tearDown" finished-at="2025-01-25T14:50:07 IST" duration-ms="7403" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ahec.testCases.TC_HomePage_001 -->
-    </test> <!-- HomePageTests -->
-    <test started-at="2025-01-25T14:48:47 IST" name="HealthProgramsAndServicesTests" finished-at="2025-01-25T14:50:23 IST" duration-ms="96874">
+    <test started-at="2025-01-27T16:36:05 IST" name="HealthProgramsAndServicesTests" finished-at="2025-01-27T16:37:03 IST" duration-ms="57834">
       <class name="com.ahec.testCases.TC_HealthProgramsAndServicesTest_002">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:48:47 IST" name="setUp" finished-at="2025-01-25T14:49:14 IST" duration-ms="27592" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:05 IST" name="setUp" finished-at="2025-01-27T16:36:17 IST" duration-ms="11757" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -401,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:49:14 IST" name="setupTest" finished-at="2025-01-25T14:49:14 IST" duration-ms="77" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:17 IST" name="setupTest" finished-at="2025-01-27T16:36:17 IST" duration-ms="58" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -412,22 +29,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyCommunityBasedStudentEducation()[pri:1, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:49:14 IST" name="testVerifyCommunityBasedStudentEducation" finished-at="2025-01-25T14:49:27 IST" duration-ms="12848" status="PASS">
+        <test-method signature="testVerifyCommunityBasedStudentEducation()[pri:1, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:17 IST" name="testVerifyCommunityBasedStudentEducation" finished-at="2025-01-27T16:36:22 IST" duration-ms="4784" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyCommunityBasedStudentEducation -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:49:27 IST" name="logTestStatus" finished-at="2025-01-25T14:49:27 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:22 IST" name="logTestStatus" finished-at="2025-01-27T16:36:22 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testVerifyCommunityBasedStudentEducation status=SUCCESS method=TC_HealthProgramsAndServicesTest_002.testVerifyCommunityBasedStudentEducation()[pri:1, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556] output={null}]]]>
+                <![CDATA[[TestResult name=testVerifyCommunityBasedStudentEducation status=SUCCESS method=TC_HealthProgramsAndServicesTest_002.testVerifyCommunityBasedStudentEducation()[pri:1, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:49:27 IST" name="setupTest" finished-at="2025-01-25T14:49:27 IST" duration-ms="50" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:22 IST" name="setupTest" finished-at="2025-01-27T16:36:22 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -438,22 +55,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyContinuingEducationService()[pri:2, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:49:27 IST" name="testVerifyContinuingEducationService" finished-at="2025-01-25T14:49:34 IST" duration-ms="6764" status="PASS">
+        <test-method signature="testVerifyContinuingEducationService()[pri:2, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:22 IST" name="testVerifyContinuingEducationService" finished-at="2025-01-27T16:36:25 IST" duration-ms="3631" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyContinuingEducationService -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:49:34 IST" name="logTestStatus" finished-at="2025-01-25T14:49:34 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:25 IST" name="logTestStatus" finished-at="2025-01-27T16:36:25 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testVerifyContinuingEducationService status=SUCCESS method=TC_HealthProgramsAndServicesTest_002.testVerifyContinuingEducationService()[pri:2, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556] output={null}]]]>
+                <![CDATA[[TestResult name=testVerifyContinuingEducationService status=SUCCESS method=TC_HealthProgramsAndServicesTest_002.testVerifyContinuingEducationService()[pri:2, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:49:34 IST" name="setupTest" finished-at="2025-01-25T14:49:34 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:25 IST" name="setupTest" finished-at="2025-01-27T16:36:25 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -464,22 +81,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyCoveringFlorida()[pri:3, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:49:34 IST" name="testVerifyCoveringFlorida" finished-at="2025-01-25T14:49:46 IST" duration-ms="11572" status="PASS">
+        <test-method signature="testVerifyCoveringFlorida()[pri:3, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:25 IST" name="testVerifyCoveringFlorida" finished-at="2025-01-27T16:36:35 IST" duration-ms="9488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyCoveringFlorida -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:49:46 IST" name="logTestStatus" finished-at="2025-01-25T14:49:46 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:35 IST" name="logTestStatus" finished-at="2025-01-27T16:36:35 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testVerifyCoveringFlorida status=SUCCESS method=TC_HealthProgramsAndServicesTest_002.testVerifyCoveringFlorida()[pri:3, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556] output={null}]]]>
+                <![CDATA[[TestResult name=testVerifyCoveringFlorida status=SUCCESS method=TC_HealthProgramsAndServicesTest_002.testVerifyCoveringFlorida()[pri:3, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:49:46 IST" name="setupTest" finished-at="2025-01-25T14:49:46 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:35 IST" name="setupTest" finished-at="2025-01-27T16:36:35 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -490,22 +107,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyTobacco()[pri:4, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:49:46 IST" name="testVerifyTobacco" finished-at="2025-01-25T14:49:57 IST" duration-ms="10737" status="PASS">
+        <test-method signature="testVerifyTobacco()[pri:4, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:35 IST" name="testVerifyTobacco" finished-at="2025-01-27T16:36:41 IST" duration-ms="6236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyTobacco -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:49:57 IST" name="logTestStatus" finished-at="2025-01-25T14:49:57 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:41 IST" name="logTestStatus" finished-at="2025-01-27T16:36:41 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testVerifyTobacco status=SUCCESS method=TC_HealthProgramsAndServicesTest_002.testVerifyTobacco()[pri:4, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556] output={null}]]]>
+                <![CDATA[[TestResult name=testVerifyTobacco status=SUCCESS method=TC_HealthProgramsAndServicesTest_002.testVerifyTobacco()[pri:4, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:49:57 IST" name="setupTest" finished-at="2025-01-25T14:49:57 IST" duration-ms="15" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:41 IST" name="setupTest" finished-at="2025-01-27T16:36:41 IST" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -516,22 +133,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyAhecScholar()[pri:5, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:49:57 IST" name="testVerifyAhecScholar" finished-at="2025-01-25T14:50:05 IST" duration-ms="8508" status="PASS">
+        <test-method signature="testVerifyAhecScholar()[pri:5, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:41 IST" name="testVerifyAhecScholar" finished-at="2025-01-27T16:36:51 IST" duration-ms="10073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyAhecScholar -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:50:05 IST" name="logTestStatus" finished-at="2025-01-25T14:50:05 IST" duration-ms="49" status="PASS">
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:51 IST" name="logTestStatus" finished-at="2025-01-27T16:36:51 IST" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testVerifyAhecScholar status=SUCCESS method=TC_HealthProgramsAndServicesTest_002.testVerifyAhecScholar()[pri:5, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556] output={null}]]]>
+                <![CDATA[[TestResult name=testVerifyAhecScholar status=SUCCESS method=TC_HealthProgramsAndServicesTest_002.testVerifyAhecScholar()[pri:5, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:50:05 IST" name="setupTest" finished-at="2025-01-25T14:50:05 IST" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:51 IST" name="setupTest" finished-at="2025-01-27T16:36:51 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -542,22 +159,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testVerifyHealthyAgeing()[pri:6, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:50:05 IST" name="testVerifyHealthyAgeing" finished-at="2025-01-25T14:50:15 IST" duration-ms="9298" status="PASS">
+        <test-method signature="testVerifyHealthyAgeing()[pri:6, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:51 IST" name="testVerifyHealthyAgeing" finished-at="2025-01-27T16:36:57 IST" duration-ms="5424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyHealthyAgeing -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:50:15 IST" name="logTestStatus" finished-at="2025-01-25T14:50:15 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:57 IST" name="logTestStatus" finished-at="2025-01-27T16:36:57 IST" duration-ms="9" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testVerifyHealthyAgeing status=SUCCESS method=TC_HealthProgramsAndServicesTest_002.testVerifyHealthyAgeing()[pri:6, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556] output={null}]]]>
+                <![CDATA[[TestResult name=testVerifyHealthyAgeing status=SUCCESS method=TC_HealthProgramsAndServicesTest_002.testVerifyHealthyAgeing()[pri:6, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:50:15 IST" name="setupTest" finished-at="2025-01-25T14:50:15 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:57 IST" name="setupTest" finished-at="2025-01-27T16:36:57 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -568,7 +185,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testEmbededVideo()[pri:7, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:50:15 IST" name="testEmbededVideo" finished-at="2025-01-25T14:50:18 IST" duration-ms="2973" status="FAIL">
+        <test-method signature="testEmbededVideo()[pri:7, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:36:57 IST" name="testEmbededVideo" finished-at="2025-01-27T16:37:01 IST" duration-ms="4648" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Embedded video test failed.]]>
@@ -603,87 +220,30 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEmbededVideo -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:50:18 IST" name="logTestStatus" finished-at="2025-01-25T14:50:18 IST" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:37:01 IST" name="logTestStatus" finished-at="2025-01-27T16:37:01 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testEmbededVideo status=FAILURE method=TC_HealthProgramsAndServicesTest_002.testEmbededVideo()[pri:7, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556] output={null}]]]>
+                <![CDATA[[TestResult name=testEmbededVideo status=FAILURE method=TC_HealthProgramsAndServicesTest_002.testEmbededVideo()[pri:7, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:50:18 IST" name="setupTest" finished-at="2025-01-25T14:50:18 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void com.ahec.testCases.TC_HealthProgramsAndServicesTest_002.testIframeForInvaidZipCode()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupTest -->
-        <test-method signature="testIframeForInvaidZipCode()[pri:8, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:50:18 IST" name="testIframeForInvaidZipCode" finished-at="2025-01-25T14:50:23 IST" duration-ms="5164" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[Iframe test failed.]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Iframe test failed.
-at org.testng.Assert.fail(Assert.java:111)
-at com.ahec.testCases.TC_HealthProgramsAndServicesTest_002.testIframeForInvaidZipCode(TC_HealthProgramsAndServicesTest_002.java:245)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIframeForInvaidZipCode -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:50:23 IST" name="logTestStatus" finished-at="2025-01-25T14:50:23 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testIframeForInvaidZipCode status=FAILURE method=TC_HealthProgramsAndServicesTest_002.testIframeForInvaidZipCode()[pri:8, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@43c1b556]" started-at="2025-01-25T14:50:23 IST" name="tearDown" finished-at="2025-01-25T14:50:23 IST" duration-ms="643" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ahec.testCases.TC_HealthProgramsAndServicesTest_002@4c39bec8]" started-at="2025-01-27T16:37:01 IST" name="tearDown" finished-at="2025-01-27T16:37:03 IST" duration-ms="1413" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.ahec.testCases.TC_HealthProgramsAndServicesTest_002 -->
     </test> <!-- HealthProgramsAndServicesTests -->
-    <test started-at="2025-01-25T14:48:47 IST" name="LoginTests" finished-at="2025-01-25T14:51:47 IST" duration-ms="180511">
+    <test started-at="2025-01-27T16:36:05 IST" name="LoginTests" finished-at="2025-01-27T16:37:03 IST" duration-ms="58573">
       <class name="com.ahec.testCases.TC_LoginTest_003">
-        <test-method is-config="true" signature="setUpExtent()[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:48:46 IST" name="setUpExtent" finished-at="2025-01-25T14:48:46 IST" duration-ms="426" status="PASS">
+        <test-method is-config="true" signature="setUpExtent()[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:36:04 IST" name="setUpExtent" finished-at="2025-01-27T16:36:05 IST" duration-ms="430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpExtent -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:48:47 IST" name="setUp" finished-at="2025-01-25T14:51:09 IST" duration-ms="142902" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:36:05 IST" name="setUp" finished-at="2025-01-27T16:36:17 IST" duration-ms="12185" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -694,11 +254,7 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setupWait()[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:51:09 IST" name="setupWait" finished-at="2025-01-25T14:51:09 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setupWait -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:51:09 IST" name="setupTest" finished-at="2025-01-25T14:51:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:36:17 IST" name="setupTest" finished-at="2025-01-27T16:36:17 IST" duration-ms="52" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -709,7 +265,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method signature="testUserRegistration()[pri:1, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:51:09 IST" name="testUserRegistration" finished-at="2025-01-25T14:51:36 IST" duration-ms="26229" status="FAIL">
+        <test-method is-config="true" signature="setupWait()[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:36:17 IST" name="setupWait" finished-at="2025-01-27T16:36:17 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupWait -->
+        <test-method signature="testUserRegistration()[pri:1, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:36:17 IST" name="testUserRegistration" finished-at="2025-01-27T16:36:32 IST" duration-ms="14062" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[User Registration failed.]]>
@@ -744,18 +304,18 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUserRegistration -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:51:36 IST" name="logTestStatus" finished-at="2025-01-25T14:51:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:36:32 IST" name="logTestStatus" finished-at="2025-01-27T16:36:32 IST" duration-ms="11" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testUserRegistration status=FAILURE method=TC_LoginTest_003.testUserRegistration()[pri:1, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14] output={null}]]]>
+                <![CDATA[[TestResult name=testUserRegistration status=FAILURE method=TC_LoginTest_003.testUserRegistration()[pri:1, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:51:36 IST" name="setupTest" finished-at="2025-01-25T14:51:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:36:32 IST" name="setupTest" finished-at="2025-01-27T16:36:32 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -766,26 +326,26 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method is-config="true" signature="setupWait()[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:51:36 IST" name="setupWait" finished-at="2025-01-25T14:51:36 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupWait()[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:36:32 IST" name="setupWait" finished-at="2025-01-27T16:36:32 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupWait -->
-        <test-method signature="testVerifyLogin()[pri:2, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:51:36 IST" name="testVerifyLogin" finished-at="2025-01-25T14:51:42 IST" duration-ms="5971" status="PASS">
+        <test-method signature="testVerifyLogin()[pri:2, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:36:32 IST" name="testVerifyLogin" finished-at="2025-01-27T16:36:43 IST" duration-ms="11200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyLogin -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:51:42 IST" name="logTestStatus" finished-at="2025-01-25T14:51:42 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:36:43 IST" name="logTestStatus" finished-at="2025-01-27T16:36:43 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testVerifyLogin status=SUCCESS method=TC_LoginTest_003.testVerifyLogin()[pri:2, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14] output={null}]]]>
+                <![CDATA[[TestResult name=testVerifyLogin status=SUCCESS method=TC_LoginTest_003.testVerifyLogin()[pri:2, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:51:42 IST" name="setupTest" finished-at="2025-01-25T14:51:42 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:36:43 IST" name="setupTest" finished-at="2025-01-27T16:36:43 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -796,11 +356,11 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method is-config="true" signature="setupWait()[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:51:42 IST" name="setupWait" finished-at="2025-01-25T14:51:42 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setupWait()[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:36:43 IST" name="setupWait" finished-at="2025-01-27T16:36:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupWait -->
-        <test-method signature="testForgotPassword()[pri:3, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:51:42 IST" name="testForgotPassword" finished-at="2025-01-25T14:51:45 IST" duration-ms="3777" status="FAIL">
+        <test-method signature="testForgotPassword()[pri:3, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:36:43 IST" name="testForgotPassword" finished-at="2025-01-27T16:36:50 IST" duration-ms="7086" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Forgot password process failed.]]>
@@ -835,26 +395,409 @@ at java.base/java.lang.Thread.run(Thread.java:1583)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testForgotPassword -->
-        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:51:45 IST" name="logTestStatus" finished-at="2025-01-25T14:51:45 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:36:50 IST" name="logTestStatus" finished-at="2025-01-27T16:36:50 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testForgotPassword status=FAILURE method=TC_LoginTest_003.testForgotPassword()[pri:3, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14] output={null}]]]>
+                <![CDATA[[TestResult name=testForgotPassword status=FAILURE method=TC_LoginTest_003.testForgotPassword()[pri:3, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logTestStatus -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:51:45 IST" name="tearDown" finished-at="2025-01-25T14:51:47 IST" duration-ms="1553" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:36:50 IST" name="tearDown" finished-at="2025-01-27T16:37:03 IST" duration-ms="13536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownExtent()[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@305b7c14]" started-at="2025-01-25T14:51:47 IST" name="tearDownExtent" finished-at="2025-01-25T14:51:48 IST" duration-ms="749" status="PASS">
+        <test-method is-config="true" signature="tearDownExtent()[pri:0, instance:com.ahec.testCases.TC_LoginTest_003@7494f96a]" started-at="2025-01-27T16:37:08 IST" name="tearDownExtent" finished-at="2025-01-27T16:37:09 IST" duration-ms="899" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownExtent -->
       </class> <!-- com.ahec.testCases.TC_LoginTest_003 -->
     </test> <!-- LoginTests -->
+    <test started-at="2025-01-27T16:36:05 IST" name="HomePageTests" finished-at="2025-01-27T16:37:08 IST" duration-ms="63407">
+      <class name="com.ahec.testCases.TC_HomePage_001">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:05 IST" name="setUp" finished-at="2025-01-27T16:36:37 IST" duration-ms="32368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:37 IST" name="setupTest" finished-at="2025-01-27T16:36:37 IST" duration-ms="29" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyURL()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testVerifyURL()[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:37 IST" name="testVerifyURL" finished-at="2025-01-27T16:36:37 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyURL -->
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:37 IST" name="logTestStatus" finished-at="2025-01-27T16:36:38 IST" duration-ms="119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyURL status=SUCCESS method=TC_HomePage_001.testVerifyURL()[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStatus -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:38 IST" name="setupTest" finished-at="2025-01-27T16:36:38 IST" duration-ms="38" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyHomePageTitle()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testVerifyHomePageTitle()[pri:1, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:38 IST" name="testVerifyHomePageTitle" finished-at="2025-01-27T16:36:39 IST" duration-ms="1775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyHomePageTitle -->
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:39 IST" name="logTestStatus" finished-at="2025-01-27T16:36:39 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyHomePageTitle status=SUCCESS method=TC_HomePage_001.testVerifyHomePageTitle()[pri:1, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStatus -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:39 IST" name="setupTest" finished-at="2025-01-27T16:36:39 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testHomePageLogoIsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testHomePageLogoIsDisplayed()[pri:2, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:39 IST" name="testHomePageLogoIsDisplayed" finished-at="2025-01-27T16:36:40 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageLogoIsDisplayed -->
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:40 IST" name="logTestStatus" finished-at="2025-01-27T16:36:40 IST" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePageLogoIsDisplayed status=SUCCESS method=TC_HomePage_001.testHomePageLogoIsDisplayed()[pri:2, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStatus -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:40 IST" name="setupTest" finished-at="2025-01-27T16:36:40 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyNavigationMenu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testVerifyNavigationMenu()[pri:3, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:40 IST" name="testVerifyNavigationMenu" finished-at="2025-01-27T16:36:40 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyNavigationMenu -->
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:40 IST" name="logTestStatus" finished-at="2025-01-27T16:36:40 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyNavigationMenu status=SUCCESS method=TC_HomePage_001.testVerifyNavigationMenu()[pri:3, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStatus -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:40 IST" name="setupTest" finished-at="2025-01-27T16:36:40 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyHealthPrograms()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testVerifyHealthPrograms()[pri:4, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:40 IST" name="testVerifyHealthPrograms" finished-at="2025-01-27T16:36:43 IST" duration-ms="3509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyHealthPrograms -->
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:43 IST" name="logTestStatus" finished-at="2025-01-27T16:36:43 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyHealthPrograms status=SUCCESS method=TC_HomePage_001.testVerifyHealthPrograms()[pri:4, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStatus -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:43 IST" name="setupTest" finished-at="2025-01-27T16:36:43 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyServicesDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testVerifyServicesDisplayed()[pri:5, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:43 IST" name="testVerifyServicesDisplayed" finished-at="2025-01-27T16:36:44 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyServicesDisplayed -->
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:44 IST" name="logTestStatus" finished-at="2025-01-27T16:36:44 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyServicesDisplayed status=SUCCESS method=TC_HomePage_001.testVerifyServicesDisplayed()[pri:5, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStatus -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:44 IST" name="setupTest" finished-at="2025-01-27T16:36:44 IST" duration-ms="48" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyCPRDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testVerifyCPRDisplayed()[pri:6, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:44 IST" name="testVerifyCPRDisplayed" finished-at="2025-01-27T16:36:44 IST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyCPRDisplayed -->
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:44 IST" name="logTestStatus" finished-at="2025-01-27T16:36:44 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyCPRDisplayed status=SUCCESS method=TC_HomePage_001.testVerifyCPRDisplayed()[pri:6, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStatus -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:44 IST" name="setupTest" finished-at="2025-01-27T16:36:44 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyContactUsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testVerifyContactUsDisplayed()[pri:7, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:44 IST" name="testVerifyContactUsDisplayed" finished-at="2025-01-27T16:36:44 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyContactUsDisplayed -->
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:44 IST" name="logTestStatus" finished-at="2025-01-27T16:36:44 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyContactUsDisplayed status=SUCCESS method=TC_HomePage_001.testVerifyContactUsDisplayed()[pri:7, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStatus -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:44 IST" name="setupTest" finished-at="2025-01-27T16:36:44 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyNewsDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testVerifyNewsDisplayed()[pri:8, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:44 IST" name="testVerifyNewsDisplayed" finished-at="2025-01-27T16:36:44 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyNewsDisplayed -->
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:44 IST" name="logTestStatus" finished-at="2025-01-27T16:36:44 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyNewsDisplayed status=SUCCESS method=TC_HomePage_001.testVerifyNewsDisplayed()[pri:8, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStatus -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:44 IST" name="setupTest" finished-at="2025-01-27T16:36:44 IST" duration-ms="49" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyMyAccountDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testVerifyMyAccountDisplayed()[pri:9, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:44 IST" name="testVerifyMyAccountDisplayed" finished-at="2025-01-27T16:36:45 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyMyAccountDisplayed -->
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:45 IST" name="logTestStatus" finished-at="2025-01-27T16:36:45 IST" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyMyAccountDisplayed status=SUCCESS method=TC_HomePage_001.testVerifyMyAccountDisplayed()[pri:9, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStatus -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:45 IST" name="setupTest" finished-at="2025-01-27T16:36:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifyContactUsFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testVerifyContactUsFunctionality()[pri:10, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:45 IST" name="testVerifyContactUsFunctionality" finished-at="2025-01-27T16:36:53 IST" duration-ms="7971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyContactUsFunctionality -->
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:53 IST" name="logTestStatus" finished-at="2025-01-27T16:36:53 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyContactUsFunctionality status=SUCCESS method=TC_HomePage_001.testVerifyContactUsFunctionality()[pri:10, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStatus -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:53 IST" name="setupTest" finished-at="2025-01-27T16:36:53 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testSearchBoxWithValidInputs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testSearchBoxWithValidInputs()[pri:11, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:53 IST" name="testSearchBoxWithValidInputs" finished-at="2025-01-27T16:36:59 IST" duration-ms="6266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBoxWithValidInputs -->
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:59 IST" name="logTestStatus" finished-at="2025-01-27T16:36:59 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchBoxWithValidInputs status=SUCCESS method=TC_HomePage_001.testSearchBoxWithValidInputs()[pri:11, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStatus -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:59 IST" name="setupTest" finished-at="2025-01-27T16:36:59 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testSearchBoxWithInvalidInputs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testSearchBoxWithInvalidInputs()[pri:12, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:36:59 IST" name="testSearchBoxWithInvalidInputs" finished-at="2025-01-27T16:37:04 IST" duration-ms="4642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBoxWithInvalidInputs -->
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:37:04 IST" name="logTestStatus" finished-at="2025-01-27T16:37:04 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchBoxWithInvalidInputs status=SUCCESS method=TC_HomePage_001.testSearchBoxWithInvalidInputs()[pri:12, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStatus -->
+        <test-method is-config="true" signature="setupTest(java.lang.reflect.Method)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:37:04 IST" name="setupTest" finished-at="2025-01-27T16:37:04 IST" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.ahec.testCases.TC_HomePage_001.testVerifySearchBar()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testVerifySearchBar()[pri:13, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:37:04 IST" name="testVerifySearchBar" finished-at="2025-01-27T16:37:06 IST" duration-ms="2201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifySearchBar -->
+        <test-method is-config="true" signature="logTestStatus(org.testng.ITestResult)[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:37:06 IST" name="logTestStatus" finished-at="2025-01-27T16:37:06 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifySearchBar status=SUCCESS method=TC_HomePage_001.testVerifySearchBar()[pri:13, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logTestStatus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ahec.testCases.TC_HomePage_001@ba2f4ec]" started-at="2025-01-27T16:37:06 IST" name="tearDown" finished-at="2025-01-27T16:37:08 IST" duration-ms="2255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ahec.testCases.TC_HomePage_001 -->
+    </test> <!-- HomePageTests -->
   </suite> <!-- West Florida AHEC Tests -->
 </testng-results>

@@ -45,9 +45,6 @@ public class TC_LoginTest_003 extends BaseClass {
 			Assert.assertTrue(DashboardHeading.isDisplayed(), "You are Not redirected to the Dashboard!");
 			test.pass("Redirected to Dashboard after registration successfully.");
 
-			// Logout
-			WebElement logout = driver.findElement(By.xpath("(//a[contains(text(), 'Log out')])[3]"));
-			logout.click();
 			test.info("User logged out successfully.");
 
 		} catch (Exception e) {

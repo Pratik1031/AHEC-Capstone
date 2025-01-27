@@ -3537,3 +3537,293 @@ java.lang.AssertionError: Forgot password process failed.
 2025-01-25 14:51:48,258 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
 2025-01-25 14:51:48,259 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
 2025-01-25 14:51:48,259 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"
+2025-01-27 10:32:10,857 +0530 [TestNG-tests-3] INFO  (BaseClass.java:74) - Browser initialized: edge
+2025-01-27 10:32:10,978 +0530 [TestNG-tests-3] INFO  (BaseClass.java:83) - Starting test: testUserRegistration
+2025-01-27 10:32:17,980 +0530 [TestNG-tests-2] INFO  (BaseClass.java:74) - Browser initialized: chrome
+2025-01-27 10:32:17,991 +0530 [TestNG-tests-2] INFO  (BaseClass.java:83) - Starting test: testVerifyCommunityBasedStudentEducation
+2025-01-27 10:32:23,841 +0530 [TestNG-tests-2] INFO  (BaseClass.java:96) - Test Passed: testVerifyCommunityBasedStudentEducation
+2025-01-27 10:32:23,860 +0530 [TestNG-tests-2] INFO  (BaseClass.java:83) - Starting test: testVerifyContinuingEducationService
+2025-01-27 10:32:25,186 +0530 [TestNG-tests-3] ERROR (BaseClass.java:100) - Test Failed: testUserRegistration
+java.lang.AssertionError: User Registration failed.
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.ahec.testCases.TC_LoginTest_003.testUserRegistration(TC_LoginTest_003.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-01-27 10:32:25,227 +0530 [TestNG-tests-3] INFO  (BaseClass.java:83) - Starting test: testVerifyLogin
+2025-01-27 10:32:27,538 +0530 [TestNG-tests-2] INFO  (BaseClass.java:96) - Test Passed: testVerifyContinuingEducationService
+2025-01-27 10:32:27,577 +0530 [TestNG-tests-2] INFO  (BaseClass.java:83) - Starting test: testVerifyCoveringFlorida
+2025-01-27 10:32:33,923 +0530 [TestNG-tests-2] INFO  (BaseClass.java:96) - Test Passed: testVerifyCoveringFlorida
+2025-01-27 10:32:33,939 +0530 [TestNG-tests-2] INFO  (BaseClass.java:83) - Starting test: testVerifyTobacco
+2025-01-27 16:36:17,097 +0530 [TestNG-tests-2] INFO  (BaseClass.java:74) - Browser initialized: chrome
+2025-01-27 16:36:17,235 +0530 [TestNG-tests-2] INFO  (BaseClass.java:83) - Starting test: testVerifyCommunityBasedStudentEducation
+2025-01-27 16:36:17,546 +0530 [TestNG-tests-3] INFO  (BaseClass.java:74) - Browser initialized: edge
+2025-01-27 16:36:17,587 +0530 [TestNG-tests-3] INFO  (BaseClass.java:83) - Starting test: testUserRegistration
+2025-01-27 16:36:22,046 +0530 [TestNG-tests-2] INFO  (BaseClass.java:96) - Test Passed: testVerifyCommunityBasedStudentEducation
+2025-01-27 16:36:22,069 +0530 [TestNG-tests-2] INFO  (BaseClass.java:83) - Starting test: testVerifyContinuingEducationService
+2025-01-27 16:36:25,716 +0530 [TestNG-tests-2] INFO  (BaseClass.java:96) - Test Passed: testVerifyContinuingEducationService
+2025-01-27 16:36:25,726 +0530 [TestNG-tests-2] INFO  (BaseClass.java:83) - Starting test: testVerifyCoveringFlorida
+2025-01-27 16:36:32,023 +0530 [TestNG-tests-3] ERROR (BaseClass.java:100) - Test Failed: testUserRegistration
+java.lang.AssertionError: User Registration failed.
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.ahec.testCases.TC_LoginTest_003.testUserRegistration(TC_LoginTest_003.java:56)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-01-27 16:36:32,039 +0530 [TestNG-tests-3] INFO  (BaseClass.java:83) - Starting test: testVerifyLogin
+2025-01-27 16:36:35,230 +0530 [TestNG-tests-2] INFO  (BaseClass.java:96) - Test Passed: testVerifyCoveringFlorida
+2025-01-27 16:36:35,243 +0530 [TestNG-tests-2] INFO  (BaseClass.java:83) - Starting test: testVerifyTobacco
+2025-01-27 16:36:37,707 +0530 [TestNG-tests-1] INFO  (BaseClass.java:74) - Browser initialized: firefox
+2025-01-27 16:36:37,815 +0530 [TestNG-tests-1] INFO  (BaseClass.java:83) - Starting test: testVerifyURL
+2025-01-27 16:36:37,999 +0530 [TestNG-tests-1] INFO  (BaseClass.java:96) - Test Passed: testVerifyURL
+2025-01-27 16:36:38,149 +0530 [TestNG-tests-1] INFO  (BaseClass.java:83) - Starting test: testVerifyHomePageTitle
+2025-01-27 16:36:39,958 +0530 [TestNG-tests-1] INFO  (BaseClass.java:96) - Test Passed: testVerifyHomePageTitle
+2025-01-27 16:36:39,964 +0530 [TestNG-tests-1] INFO  (BaseClass.java:83) - Starting test: testHomePageLogoIsDisplayed
+2025-01-27 16:36:40,223 +0530 [TestNG-tests-1] INFO  (BaseClass.java:96) - Test Passed: testHomePageLogoIsDisplayed
+2025-01-27 16:36:40,232 +0530 [TestNG-tests-1] INFO  (BaseClass.java:83) - Starting test: testVerifyNavigationMenu
+2025-01-27 16:36:40,380 +0530 [TestNG-tests-1] INFO  (BaseClass.java:96) - Test Passed: testVerifyNavigationMenu
+2025-01-27 16:36:40,392 +0530 [TestNG-tests-1] INFO  (BaseClass.java:83) - Starting test: testVerifyHealthPrograms
+2025-01-27 16:36:41,490 +0530 [TestNG-tests-2] INFO  (BaseClass.java:96) - Test Passed: testVerifyTobacco
+2025-01-27 16:36:41,496 +0530 [TestNG-tests-2] INFO  (BaseClass.java:83) - Starting test: testVerifyAhecScholar
+2025-01-27 16:36:43,249 +0530 [TestNG-tests-3] INFO  (BaseClass.java:96) - Test Passed: testVerifyLogin
+2025-01-27 16:36:43,258 +0530 [TestNG-tests-3] INFO  (BaseClass.java:83) - Starting test: testForgotPassword
+2025-01-27 16:36:43,952 +0530 [TestNG-tests-1] INFO  (BaseClass.java:96) - Test Passed: testVerifyHealthPrograms
+2025-01-27 16:36:43,957 +0530 [TestNG-tests-1] INFO  (BaseClass.java:83) - Starting test: testVerifyServicesDisplayed
+2025-01-27 16:36:44,148 +0530 [TestNG-tests-1] INFO  (BaseClass.java:96) - Test Passed: testVerifyServicesDisplayed
+2025-01-27 16:36:44,178 +0530 [TestNG-tests-1] INFO  (BaseClass.java:83) - Starting test: testVerifyCPRDisplayed
+2025-01-27 16:36:44,360 +0530 [TestNG-tests-1] INFO  (BaseClass.java:96) - Test Passed: testVerifyCPRDisplayed
+2025-01-27 16:36:44,366 +0530 [TestNG-tests-1] INFO  (BaseClass.java:83) - Starting test: testVerifyContactUsDisplayed
+2025-01-27 16:36:44,555 +0530 [TestNG-tests-1] INFO  (BaseClass.java:96) - Test Passed: testVerifyContactUsDisplayed
+2025-01-27 16:36:44,569 +0530 [TestNG-tests-1] INFO  (BaseClass.java:83) - Starting test: testVerifyNewsDisplayed
+2025-01-27 16:36:44,890 +0530 [TestNG-tests-1] INFO  (BaseClass.java:96) - Test Passed: testVerifyNewsDisplayed
+2025-01-27 16:36:44,947 +0530 [TestNG-tests-1] INFO  (BaseClass.java:83) - Starting test: testVerifyMyAccountDisplayed
+2025-01-27 16:36:45,240 +0530 [TestNG-tests-1] INFO  (BaseClass.java:96) - Test Passed: testVerifyMyAccountDisplayed
+2025-01-27 16:36:45,245 +0530 [TestNG-tests-1] INFO  (BaseClass.java:83) - Starting test: testVerifyContactUsFunctionality
+2025-01-27 16:36:50,351 +0530 [TestNG-tests-3] ERROR (BaseClass.java:100) - Test Failed: testForgotPassword
+java.lang.AssertionError: Forgot password process failed.
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.ahec.testCases.TC_LoginTest_003.testForgotPassword(TC_LoginTest_003.java:112)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-01-27 16:36:51,594 +0530 [TestNG-tests-2] INFO  (BaseClass.java:96) - Test Passed: testVerifyAhecScholar
+2025-01-27 16:36:51,632 +0530 [TestNG-tests-2] INFO  (BaseClass.java:83) - Starting test: testVerifyHealthyAgeing
+2025-01-27 16:36:53,225 +0530 [TestNG-tests-1] INFO  (BaseClass.java:96) - Test Passed: testVerifyContactUsFunctionality
+2025-01-27 16:36:53,236 +0530 [TestNG-tests-1] INFO  (BaseClass.java:83) - Starting test: testSearchBoxWithValidInputs
+2025-01-27 16:36:57,067 +0530 [TestNG-tests-2] INFO  (BaseClass.java:96) - Test Passed: testVerifyHealthyAgeing
+2025-01-27 16:36:57,076 +0530 [TestNG-tests-2] INFO  (BaseClass.java:83) - Starting test: testEmbededVideo
+2025-01-27 16:36:59,548 +0530 [TestNG-tests-1] INFO  (BaseClass.java:96) - Test Passed: testSearchBoxWithValidInputs
+2025-01-27 16:36:59,560 +0530 [TestNG-tests-1] INFO  (BaseClass.java:83) - Starting test: testSearchBoxWithInvalidInputs
+2025-01-27 16:37:01,733 +0530 [TestNG-tests-2] ERROR (BaseClass.java:100) - Test Failed: testEmbededVideo
+java.lang.AssertionError: Embedded video test failed.
+	at org.testng.Assert.fail(Assert.java:111)
+	at com.ahec.testCases.TC_HealthProgramsAndServicesTest_002.testEmbededVideo(TC_HealthProgramsAndServicesTest_002.java:202)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-01-27 16:37:03,150 +0530 [TestNG-tests-2] INFO  (BaseClass.java:113) - Browser session ended.
+2025-01-27 16:37:03,888 +0530 [TestNG-tests-3] INFO  (BaseClass.java:113) - Browser session ended.
+2025-01-27 16:37:04,220 +0530 [TestNG-tests-1] INFO  (BaseClass.java:96) - Test Passed: testSearchBoxWithInvalidInputs
+2025-01-27 16:37:04,247 +0530 [TestNG-tests-1] INFO  (BaseClass.java:83) - Starting test: testVerifySearchBar
+2025-01-27 16:37:06,459 +0530 [TestNG-tests-1] INFO  (BaseClass.java:96) - Test Passed: testVerifySearchBar
+2025-01-27 16:37:08,723 +0530 [TestNG-tests-1] INFO  (BaseClass.java:113) - Browser session ended.
+2025-01-27 16:37:08,805 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/spark.spa.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:08,808 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/spark.spa_en_US.ftl"): Not found
+2025-01-27 16:37:08,814 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+2025-01-27 16:37:08,816 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+2025-01-27 16:37:08,817 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/spark.spa.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl"
+2025-01-27 16:37:08,968 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "commons/commons-variables.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:08,970 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("commons/commons-variables_en_US.ftl"): Not found
+2025-01-27 16:37:08,973 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+2025-01-27 16:37:08,974 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+2025-01-27 16:37:08,975 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "commons/commons-variables.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl"
+2025-01-27 16:37:09,208 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "commons/commons-macros.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,210 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("commons/commons-macros_en_US.ftl"): Not found
+2025-01-27 16:37:09,212 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+2025-01-27 16:37:09,213 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+2025-01-27 16:37:09,214 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "commons/commons-macros.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl"
+2025-01-27 16:37:09,232 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,234 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/macros/attributes_en_US.ftl"): Not found
+2025-01-27 16:37:09,235 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+2025-01-27 16:37:09,236 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+2025-01-27 16:37:09,237 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/macros/attributes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl"
+2025-01-27 16:37:09,240 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/macros/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,242 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/macros/log_en_US.ftl"): Not found
+2025-01-27 16:37:09,243 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+2025-01-27 16:37:09,246 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+2025-01-27 16:37:09,246 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/macros/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl"
+2025-01-27 16:37:09,249 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,250 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_US.ftl"): Not found
+2025-01-27 16:37:09,252 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+2025-01-27 16:37:09,253 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+2025-01-27 16:37:09,253 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/macros/recurse_nodes.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl"
+2025-01-27 16:37:09,265 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/macros/log.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,266 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,267 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_US.ftl"): Not found
+2025-01-27 16:37:09,268 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+2025-01-27 16:37:09,269 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+2025-01-27 16:37:09,270 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/macros/attr-common.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl"
+2025-01-27 16:37:09,282 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/partials/head.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,283 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/head_en_US.ftl"): Not found
+2025-01-27 16:37:09,285 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+2025-01-27 16:37:09,286 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+2025-01-27 16:37:09,286 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/partials/head.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl"
+2025-01-27 16:37:09,297 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,298 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_US.ftl"): Not found
+2025-01-27 16:37:09,298 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+2025-01-27 16:37:09,300 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+2025-01-27 16:37:09,300 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "commons/commons-inject-css.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl"
+2025-01-27 16:37:09,303 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,305 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/navbar_en_US.ftl"): Not found
+2025-01-27 16:37:09,306 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+2025-01-27 16:37:09,307 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+2025-01-27 16:37:09,307 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/partials/navbar.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl"
+2025-01-27 16:37:09,318 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,319 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_US.ftl"): Not found
+2025-01-27 16:37:09,334 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+2025-01-27 16:37:09,336 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+2025-01-27 16:37:09,336 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/partials/sidenav.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl"
+2025-01-27 16:37:09,357 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/partials/test.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,359 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/test_en_US.ftl"): Not found
+2025-01-27 16:37:09,360 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+2025-01-27 16:37:09,364 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+2025-01-27 16:37:09,365 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/partials/test.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl"
+2025-01-27 16:37:09,402 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,403 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_US.ftl"): Not found
+2025-01-27 16:37:09,404 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+2025-01-27 16:37:09,405 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+2025-01-27 16:37:09,406 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl"
+2025-01-27 16:37:09,418 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,421 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,425 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,431 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,435 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,438 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,440 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,447 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,451 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,455 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,456 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,458 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,462 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,465 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,466 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,469 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,472 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,474 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,477 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,480 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,482 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,485 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,487 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,488 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,490 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,492 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - "spark/partials/standard-content.ftl"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2025-01-27 16:37:09,493 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/partials/exception.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,495 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/exception_en_US.ftl"): Not found
+2025-01-27 16:37:09,496 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/exception_en.ftl"): Not found
+2025-01-27 16:37:09,497 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/exception.ftl"): Found
+2025-01-27 16:37:09,497 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/partials/exception.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/partials/exception.ftl"
+2025-01-27 16:37:09,498 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/partials/category.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,500 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/category_en_US.ftl"): Not found
+2025-01-27 16:37:09,500 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/category_en.ftl"): Not found
+2025-01-27 16:37:09,502 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/category.ftl"): Found
+2025-01-27 16:37:09,503 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/partials/category.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/partials/category.ftl"
+2025-01-27 16:37:09,505 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/partials/device.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,506 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/device_en_US.ftl"): Not found
+2025-01-27 16:37:09,507 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/device_en.ftl"): Not found
+2025-01-27 16:37:09,508 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/device.ftl"): Found
+2025-01-27 16:37:09,509 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/partials/device.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/partials/device.ftl"
+2025-01-27 16:37:09,510 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/partials/author.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,512 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/author_en_US.ftl"): Not found
+2025-01-27 16:37:09,513 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/author_en.ftl"): Not found
+2025-01-27 16:37:09,514 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/author.ftl"): Found
+2025-01-27 16:37:09,514 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/partials/author.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/partials/author.ftl"
+2025-01-27 16:37:09,517 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/partials/log.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,518 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/log_en_US.ftl"): Not found
+2025-01-27 16:37:09,520 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/log_en.ftl"): Not found
+2025-01-27 16:37:09,520 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/log.ftl"): Found
+2025-01-27 16:37:09,522 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/partials/log.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/partials/log.ftl"
+2025-01-27 16:37:09,524 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,525 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_US.ftl"): Not found
+2025-01-27 16:37:09,526 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+2025-01-27 16:37:09,527 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+2025-01-27 16:37:09,527 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/partials/dashboard.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl"
+2025-01-27 16:37:09,609 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,612 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/scripts_en_US.ftl"): Not found
+2025-01-27 16:37:09,613 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+2025-01-27 16:37:09,615 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+2025-01-27 16:37:09,615 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "spark/partials/scripts.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl"
+2025-01-27 16:37:09,618 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Couldn't find template in cache for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed); will try to load it.
+2025-01-27 16:37:09,619 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_US.ftl"): Not found
+2025-01-27 16:37:09,620 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+2025-01-27 16:37:09,622 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+2025-01-27 16:37:09,622 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "commons/commons-inject-js.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/DELL/.m2/repository/com/aventstack/extentreports/5.1.2/extentreports-5.1.2.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl"

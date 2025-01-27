@@ -7,7 +7,6 @@
     <classes>
       <class name="com.ahec.testCases.TC_HealthProgramsAndServicesTest_002">
         <methods>
-          <include name="testIframeForInvaidZipCode"/>
           <include name="setUpExtent"/>
           <include name="setUp"/>
           <include name="logTestStatus"/>
@@ -25,10 +24,10 @@
       <class name="com.ahec.testCases.TC_LoginTest_003">
         <methods>
           <include name="testUserRegistration"/>
-          <include name="setUpExtent"/>
           <include name="setupWait"/>
-          <include name="setUp"/>
+          <include name="setUpExtent"/>
           <include name="testForgotPassword"/>
+          <include name="setUp"/>
           <include name="logTestStatus"/>
           <include name="tearDown"/>
           <include name="setupTest"/>

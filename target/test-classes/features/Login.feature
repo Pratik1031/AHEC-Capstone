@@ -8,6 +8,6 @@ Feature: Log in feature
     And browser is closed
 
     Examples: 
-      | username            | password     | Expected Status |
-      | tim.david@gmail.com | TimDavid@143 | Success         |
-      | TimDavid            | Tim@143      | Fail            |
+      | username | password    | Expected Status |
+      | tomsmith | Tom@1235874 | success         |
+      | TimDavid | Tim@143     | fail            |
