@@ -95,8 +95,8 @@ public class TC_LoginTest_003 extends BaseClass {
 			lp.clickForgotPassword();
 			test.info("Clicked on 'Lost your password?' link.");
 
-			lp.enterEmailForPasswordReset("john@gmail.com");
-			test.info("Entered email: john@gmail.com");
+			lp.enterEmailForPasswordReset("tom.smith@gmail.com");
+			test.info("Entered email: tom.smith@gmail.com");
 			lp.clickResetPasswordButton();
 			test.info("Clicked on 'Reset Password' button.");
 
