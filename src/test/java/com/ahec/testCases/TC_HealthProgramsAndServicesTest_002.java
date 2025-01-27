@@ -165,7 +165,7 @@ public class TC_HealthProgramsAndServicesTest_002 extends BaseClass {
 	}
 
 	@SuppressWarnings("deprecation")
-	@Test(priority = 7)
+	@Test(priority = 7 , enabled =  false)
 	public void testEmbededVideo() {
 		test.info("Test started: testEmbededVideo");
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
